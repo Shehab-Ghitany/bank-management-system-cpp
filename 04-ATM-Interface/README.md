@@ -50,15 +50,13 @@ How to Run:
 5. Log in using a valid client account from Clients.txt to access the ATM.
 
 Notes:
-
-This version focuses on client-side ATM operations only (no admin menus).
-
-Demonstrates strong file handling, validation logic, and transaction management.
-
-Ideal for showcasing applied C++ programming, file I/O, and user experience design in console apps.
+------
+- This version focuses on client-side ATM operations only (no admin menus).
+- Demonstrates strong file handling, validation logic, and transaction management.
+- Ideal for showcasing applied C++ programming, file I/O, and user experience design in console apps.
 
 Screenshots:
-
+------------
 Login Screen:
 ![Login Screen](Screenshots/login-screen.png)
 
