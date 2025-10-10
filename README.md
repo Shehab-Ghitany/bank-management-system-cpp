@@ -1,42 +1,155 @@
-> This project was built as part of a C++ course by Dr. Abu-Hudhoud (Course 8).
+Bank Management System (C++ Series)
+Author: Shehab Ghitany
+Language: C++
+Development Period: June – August 2025
+Total Versions: 5
 
+Overview
+This repository contains a complete C++ Bank Management System developed through five progressive stages.
+Each version adds new modules, features, and programming concepts — from basic file handling to full OOP-based.
 
-# Bank Management System
+The purpose of this series is to demonstrate:
 
-A C++ console-based application that simulates core banking operations.  
-The system is built to handle clients' accounts and manage administrative users with custom permissions.
+Mastery of procedural and object-oriented C++.
 
-## Features
+Real-world application design and data management.
 
-- Admin login with username/password authentication
-- Role-based access control using permission flags
-- View, add, update, delete, and search for client records
-- Deposit and withdraw money from client accounts
-- Transaction confirmation prompts
-- Manage system users with configurable permissions
-- All data stored in text files (for learning purposes)
+Clean modular coding, file I/O, and layered structure.
 
-## Technologies Used
+Professional project documentation and scalability.
 
-- Language: C++
-- Data Storage: Plain text files
-- Development Approach: Modular programming using functions and enums
-- Approx. Lines of Code: 1400+
+Version Roadmap
+01 - Base Project
+Description:
+The foundation of the system.
+Implements a basic client management system using text files for storage.
 
-## Project Structure
+Main Features:
 
-- `main.cpp`: Core logic and menu navigation
-- `Clients.txt`: Stores client account data
-- `Users.txt`: Stores admin user credentials and permissions
-- All source files are kept in one organized directory
+View client list.
 
-## Purpose
+Add, update, find, and delete clients.
 
-This project was built as part of a C++ learning path to simulate a real-world mini banking system.  
-It focuses on clean logic, data validation, file handling, and access control — key concepts in backend development.
+File-based data persistence (Clients.txt).
 
+Concepts:
+functions, file I/O, loops, validation.
 
-## Author
+02 - Transactions Extension
+Description:
+Enhances the base project by introducing financial transactions.
 
-Developed by Shehab Ghitany  
-GitHub: [github.com/Shehab-Ghitany](https://github.com/Shehab-Ghitany)
+Main Features:
+
+Deposit and withdraw money.
+
+Display total balances for all clients.
+
+Automatic file update after each operation.
+
+Concepts:
+Functions reuse, modularity, numeric validation.
+
+03 - Users & Permissions Extension
+Description:
+Adds user login and permission control to the system.
+
+Main Features:
+
+Multi-user login with username & password.
+
+Role-based permissions (view, edit, delete, manage users).
+
+Enhanced security for user actions.
+
+Concepts:
+User authentication, role control, structured menus.
+
+04 - ATM Interface
+Description:
+Transforms the system into a functional ATM simulation that real clients can interact with.
+
+Main Features:
+
+Login via Account Number and Pin Code.
+
+Withdraw (quick or custom), deposit, and balance check.
+
+Smooth and user-friendly console interface.
+
+Independent client-side operation (no admin menus).
+
+Concepts:
+User interaction, data encapsulation, menu-driven systems.
+
+05 - OOP Advanced Version
+Description:
+Fully restructured version using Object-Oriented Programming.
+All screens and logic are modular classes with clear separation of concerns.
+
+Main Features:
+
+Complete multi-user system (login, register, roles).
+
+Client CRUD, deposit/withdraw/transfer.
+
+Transfer logs and login audit logs with timestamps.
+
+Currency exchange module (list, update, calculator).
+
+Secure (demo) password encryption.
+
+35+ header files implementing a clean modular design.
+
+Concepts:
+Classes, encapsulation, inheritance, polymorphism, file persistence, and modular architecture.
+
+Repository Structure
+
+Bank-Management-System/
+│
+├── 01-Base-Project/
+├── 02-Transactions-Extension/
+├── 03-Users-Permission-Extension/
+├── 04-ATM-Interface/
+├── 05-OOP-Advanced/
+│
+└── README.md  ← (this file)
+Each folder contains:
+
+Source code (.cpp / .h)
+
+Data files (Clients.txt, Users.txt, etc.)
+
+A detailed README for that specific version
+
+Example screenshots
+
+Technologies & Tools
+Language: C++
+
+IDE: Visual Studio
+
+File Storage: Text-based persistence
+
+Paradigms: Procedural → OOP transition
+
+Design Focus: Modularity, reusability, scalability
+
+Learning Highlights
+Throughout the 5 stages, this project demonstrates:
+
+Practical software evolution from simple functions to full OOP systems.
+
+Proper class design and real-world modeling.
+
+File handling, validation, error checking, and user interfaces.
+
+Versioned documentation and structured development workflow.
+
+Future Enhancements
+Move from text files to a database (SQLite / MySQL).
+
+Replace reversible password encryption with secure hashing (bcrypt / Argon2).
+
+Add GUI (desktop or web) interface using C# or Qt.
