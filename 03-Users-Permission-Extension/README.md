@@ -30,11 +30,11 @@ How to Run:
 -----------
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/Shehab-Ghitany/BankSystem.git
+   git clone https://github.com/Shehab-Ghitany/bank-management-system-cpp.git
    ```
-2. Open the project folder in Visual Studio.  
+2. Open the project folder in Visual Studio.
 3. Open `BankSystem_UsersPermission.sln` solution file.  
-4. Build and run the program.  
+4. Build and run the program.
 5. Log in using a test user or Admin account to access the system.
 
 Notes:

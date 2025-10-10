@@ -27,7 +27,10 @@ File Management:
 
 How to Run:
 -----------
-1. Clone or download the repository: git clone https://github.com/Shehab-Ghitany/BankSystem.git
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/Shehab-Ghitany/bank-management-system-cpp.git
+   ```
 2. Open the project folder in Visual Studio.
 3. Open `BankSystem_Base.sln` solution file.
 4. Build the solution and run the application.

@@ -41,18 +41,13 @@ File Management:
 How to Run:
 -----------
 1. Clone or download the repository:
-
    ```bash
-   git clone https://github.com/Shehab-Ghitany/BankSystem.git
+   git clone https://github.com/Shehab-Ghitany/bank-management-system-cpp.git
    ```
-Open the project folder in Visual Studio.
-
-Open the solution file:
-BankSystem_ATM.sln
-
-Build and run the program.
-
-Log in using a valid client account from Clients.txt to access the ATM.
+2. Open the project folder in Visual Studio.
+3. Open the solution file: `BankSystem_ATM.sln` solution file.
+4. Build and run the program.
+5. Log in using a valid client account from Clients.txt to access the ATM.
 
 Notes:
 

@@ -63,14 +63,11 @@ Default / Demo Credentials:
 How to Run:
 -----------
 1. Clone or download the repository:
-git clone https://github.com/Shehab-Ghitany/BankSystem.git
-
+   ```bash
+   git clone https://github.com/Shehab-Ghitany/bank-management-system-cpp.git
+   ```
 2. Open the project folder in Visual Studio.  
-3. Open solution file (OOP project):  
-
-
-BankSystem_OOP_Advanced.sln
-
+3. Open solution file (OOP project): `BankSystem_OOP_Advanced.sln`.
 4. Build the solution and run the application.  
 5. Log in with an existing user (or `Admin/Admin` for admin access) to reach the Main Screen and explore menus.
 
