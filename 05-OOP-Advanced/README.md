@@ -112,6 +112,7 @@ Suggested Next Improvements:
 
 Code Organization:
 ------------------------------------
+```text
 05-OOP-Advanced/
 ├─ BankSystem_OOP_Advanced.sln
 ├─ (.cpp / .h files)
@@ -123,7 +124,7 @@ Code Organization:
 ├─ Screenshots/
 ├─ (Other files)
 └─ README.md <-- this file
-
+```
 
 Contact / Author:
 -----------------
