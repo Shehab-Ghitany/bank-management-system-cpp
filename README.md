@@ -87,7 +87,7 @@ Bank-Management-System/
 ├── 04-ATM-Interface/
 ├── 05-OOP-Advanced/
 │
-└── README.txt  ← (this file)
+└── README.md  ← (this file)
 ```  
 
 Each folder contains:  
