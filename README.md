@@ -114,3 +114,6 @@ Throughout the 5 stages, this project demonstrates:
 - Move from text files to a database (SQLite / MySQL).  
 - Replace reversible password encryption with secure hashing (bcrypt / Argon2).  
 - Add GUI (desktop or web) interface using C# or Qt.
+
+## Note:
+All client names, account numbers, phone numbers, and other personal data in this project are fictional and used solely for testing and demonstration purposes. No real personal information is included.
